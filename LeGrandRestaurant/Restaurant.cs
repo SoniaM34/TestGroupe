@@ -12,7 +12,7 @@ namespace LeGrandRestaurant
         {
             _listServeur = serveur;
         }
-        public decimal ChiffreAffaires
-         => _listServeur.Sum(serveur => serveur.ChiffreAffaires);
+        public decimal ChiffreAffaires 
+            =>  _listServeur.Sum(serveur => serveur.ChiffreAffaires);
     }
 }

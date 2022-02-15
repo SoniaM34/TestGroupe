@@ -22,15 +22,3 @@ C:/Users/kryza/source/repos/LeGrandRestaurant/LeGrandRestaurant/obj/Debug/net6.0
 /home/anto/Downloads/LeGrandRestaurant_V1/LeGrandRestaurant/obj/Debug/net6.0/LeGrandRestaurant.dll
 /home/anto/Downloads/LeGrandRestaurant_V1/LeGrandRestaurant/obj/Debug/net6.0/ref/LeGrandRestaurant.dll
 /home/anto/Downloads/LeGrandRestaurant_V1/LeGrandRestaurant/obj/Debug/net6.0/LeGrandRestaurant.pdb
-C:\DD\epsi\COURS\METHODO\COURS\15022022\LeGrandRestaurant_V1\LeGrandRestaurant\bin\Debug\net6.0\LeGrandRestaurant.deps.json
-C:\DD\epsi\COURS\METHODO\COURS\15022022\LeGrandRestaurant_V1\LeGrandRestaurant\bin\Debug\net6.0\LeGrandRestaurant.dll
-C:\DD\epsi\COURS\METHODO\COURS\15022022\LeGrandRestaurant_V1\LeGrandRestaurant\bin\Debug\net6.0\ref\LeGrandRestaurant.dll
-C:\DD\epsi\COURS\METHODO\COURS\15022022\LeGrandRestaurant_V1\LeGrandRestaurant\bin\Debug\net6.0\LeGrandRestaurant.pdb
-C:\DD\epsi\COURS\METHODO\COURS\15022022\LeGrandRestaurant_V1\LeGrandRestaurant\obj\Debug\net6.0\LeGrandRestaurant.GeneratedMSBuildEditorConfig.editorconfig
-C:\DD\epsi\COURS\METHODO\COURS\15022022\LeGrandRestaurant_V1\LeGrandRestaurant\obj\Debug\net6.0\LeGrandRestaurant.AssemblyInfoInputs.cache
-C:\DD\epsi\COURS\METHODO\COURS\15022022\LeGrandRestaurant_V1\LeGrandRestaurant\obj\Debug\net6.0\LeGrandRestaurant.AssemblyInfo.cs
-C:\DD\epsi\COURS\METHODO\COURS\15022022\LeGrandRestaurant_V1\LeGrandRestaurant\obj\Debug\net6.0\LeGrandRestaurant.csproj.CoreCompileInputs.cache
-C:\DD\epsi\COURS\METHODO\COURS\15022022\LeGrandRestaurant_V1\LeGrandRestaurant\obj\Debug\net6.0\LeGrandRestaurant.dll
-C:\DD\epsi\COURS\METHODO\COURS\15022022\LeGrandRestaurant_V1\LeGrandRestaurant\obj\Debug\net6.0\ref\LeGrandRestaurant.dll
-C:\DD\epsi\COURS\METHODO\COURS\15022022\LeGrandRestaurant_V1\LeGrandRestaurant\obj\Debug\net6.0\LeGrandRestaurant.pdb
-C:\DD\epsi\COURS\METHODO\COURS\15022022\LeGrandRestaurant_V1\LeGrandRestaurant\obj\Debug\net6.0\LeGrandRestaurant.csproj.AssemblyReference.cache
