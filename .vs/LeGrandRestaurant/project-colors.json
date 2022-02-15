@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5c2f3a5a-645d-404c-a422-29efa9ffbe87": {
+      "ProjectGuid": "5c2f3a5a-645d-404c-a422-29efa9ffbe87",
+      "DisplayName": "LeGrandRestaurant",
+      "ColorIndex": 0
+    },
+    "8dedc2cd-321c-48a2-a897-a681870d59e0": {
+      "ProjectGuid": "8dedc2cd-321c-48a2-a897-a681870d59e0",
+      "DisplayName": "LeGrandRestaurant.Test",
+      "ColorIndex": 1
+    },
+    "7c4edac1-8899-4146-98ee-76ca1a5df70f": {
+      "ProjectGuid": "7c4edac1-8899-4146-98ee-76ca1a5df70f",
+      "DisplayName": "LeGrandRestaurant_MSTEST",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
