@@ -21,7 +21,10 @@ namespace LeRestaurant
         public bool boisson;
         List<string> listeBoisson = new List<string>();
       
+        public Commande()
+        {
 
+        }
         public Commande(int idCommande, Client client, double prix)
         {
             this.idCommande = idCommande;

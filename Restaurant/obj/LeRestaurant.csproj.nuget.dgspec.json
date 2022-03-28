@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anto9\\OneDrive\\Bureau\\restau\\Restaurant\\LeRestaurant.csproj": {}
+    "C:\\Users\\anto9\\OneDrive\\Bureau\\TestGroupe\\Restaurant\\LeRestaurant.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anto9\\OneDrive\\Bureau\\restau\\Restaurant\\LeRestaurant.csproj": {
+    "C:\\Users\\anto9\\OneDrive\\Bureau\\TestGroupe\\Restaurant\\LeRestaurant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anto9\\OneDrive\\Bureau\\restau\\Restaurant\\LeRestaurant.csproj",
+        "projectUniqueName": "C:\\Users\\anto9\\OneDrive\\Bureau\\TestGroupe\\Restaurant\\LeRestaurant.csproj",
         "projectName": "LeRestaurant",
-        "projectPath": "C:\\Users\\anto9\\OneDrive\\Bureau\\restau\\Restaurant\\LeRestaurant.csproj",
+        "projectPath": "C:\\Users\\anto9\\OneDrive\\Bureau\\TestGroupe\\Restaurant\\LeRestaurant.csproj",
         "packagesPath": "C:\\Users\\anto9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anto9\\OneDrive\\Bureau\\restau\\Restaurant\\obj\\",
+        "outputPath": "C:\\Users\\anto9\\OneDrive\\Bureau\\TestGroupe\\Restaurant\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace RestaurantTest
 {
-    class GeneratorServeur
+    class TestReceipe
     {
-
-        void createServeur(int nbrServeur)
-        {
-
-        }
 
     }
 }
