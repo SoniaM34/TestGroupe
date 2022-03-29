@@ -1,4 +1,5 @@
 ﻿using FluentAssertions;
+using LeRestaurant;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,8 +14,54 @@ namespace RestaurantTest
     public class TestIntegration
     {
 
-
         [Fact(DisplayName = "SCOPE Restaurant ÉTANT" +
+          " DONNÉ un restaurant ayant X serveurs QUAND " +
+          "tous les serveurs prennent une commande " +
+          "d'un montant Y ALORS le chiffre d'affaires " +
+          "du restaurant est X * Y CAS(X = 0; X = 1;" +
+          " X = 2; X = 100) CAS(Y = 1.0)")]
+        void TestIntegrationRestaurant1()
+        {
+            #region Arrange
+            Dictionary<string, dynamic> tableServeurLigne1 =
+                new Dictionary<string, dynamic>();
+            tableServeurLigne1.Add("id", 1);
+            tableServeurLigne1.Add("Restaurant_id", 2);
+            tableServeurLigne1.Add("nom", "Josepehe");
+            tableServeurLigne1.Add("prenom", "Joestar");
+            tableServeurLigne1.Add("permis B", true);
+            tableServeurLigne1.Add("chiffreAffaire", 15.32);
+
+            Dictionary<string, dynamic> tableServeurLigne2 =
+    new Dictionary<string, dynamic>();
+            tableServeurLigne2.Add("id", 2);
+            tableServeurLigne2.Add("Restaurant_id", 2);
+            tableServeurLigne2.Add("nom", "Patrick");
+            tableServeurLigne2.Add("prenom", "Nebs");
+            tableServeurLigne2.Add("chiffreAffaire", 18.32);
+
+            List<Dictionary<string, dynamic>> TableServeur = new List<Dictionary<string, dynamic>>();
+            TableServeur.Add(tableServeurLigne1);
+            TableServeur.Add(tableServeurLigne2);
+
+
+            var restaurant = new Restaurant();
+            List<Commande> commande = new List<Commande>();
+            for (int i = 0; i < TableServeur.Count; i++)
+            {
+                Client client = new Client(TableServeur[i]["nom"]);
+                commande.Add(new Commande(1, client,
+                    TableServeur[i]["chiffreAffaire"]));
+            }
+            restaurant.implementeServeur(commande);
+            restaurant.revenue().Should().Be(33.64);
+        }
+          
+
+
+
+        
+            [Fact(DisplayName = "SCOPE Restaurant ÉTANT" +
                 " DONNÉ un restaurant ayant X serveurs QUAND " +
                 "tous les serveurs prennent une commande " +
                 "d'un montant Y ALORS le chiffre d'affaires " +
